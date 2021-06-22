@@ -1,0 +1,77 @@
+body{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    top: 7em;
+}
+
+.first, .second, .third {
+    padding: 40px 0px 15px 40px;
+    border-radius: 10px;
+    flex: 1;
+    color: whitesmoke;
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 20%;
+    line-height: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.8em 1.5em;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.first a {
+    color: hsl(31, 77%, 52%);;
+}
+
+.second a {
+    color: hsl(184, 100%, 22%);
+}
+
+.third a {
+    color: hsl(179, 100%, 13%);
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.text, .footers {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footers {
+    padding-bottom: 2em;
+}
+
+.headers {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 3em;
+    color: hsl(0, 0%, 95%);
+}
